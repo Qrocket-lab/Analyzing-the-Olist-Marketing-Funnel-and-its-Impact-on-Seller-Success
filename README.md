@@ -21,7 +21,7 @@ The core datasets used in this analysis include:
 
 ```
 .
-├── olist_analysis.py      
+├── Main_Code_Python.py      
 ├── requirements.txt         
 └── README.md                
 ```
@@ -61,14 +61,14 @@ Follow these instructions to set up and run the project on your local machine.
 
 4.  **Download the data:**
     - Download the Olist dataset from [Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce).
-    - Unzip the archive and place all the `.csv` files into a `data/` directory in the project's root. Make sure the file names match those in the `olist_analysis.py` script.
+    - Unzip the archive and place all the `.csv` files into a `data/` directory in the project's root. Make sure the file names match those in the `Main_Code_Python.py` script.
 
 ## 5. How to Run the Code
 
 To execute the data cleaning and preparation script, run the following command from the project's root directory:
 
 ```sh
-python olist_analysis.py
+python Main_Code_Python.py
 ```
 
 The script will:
@@ -80,7 +80,7 @@ After the script runs, the data is ready to be loaded into Tableau for visualiza
 
 ## 6. Data Cleaning and Preparation
 
-The `olist_analysis.py` script performs several key preprocessing steps:
+The `Main_Code_Python.py` script performs several key preprocessing steps:
 
 -   **Data Type Conversion:** Correctly casts date/time columns to `datetime` objects and boolean columns to `bool`.
 -   **Missing Value Imputation:** Strategically fills `NaN` values. For example, it fills numerical columns like `declared_product_catalog_size` with `0` and categorical columns like `business_segment` with an `unknown` category.
