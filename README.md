@@ -9,7 +9,7 @@ This project analyzes the Olist E-commerce dataset to trace the journey from MQL
 
 ## 2. The Dataset
 
-This project utilizes the [Brazilian E-Commerce Public Dataset by Olist](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) and [Marketing Funnel by Olist](https://www.kaggle.com/datasets/olistbr/marketing-funnel-olist), which is available on Kaggle. The dataset is anonymized and split into multiple CSV files that map out different aspects of the e-commerce operation. 
+This project utilizes the [Brazilian E-Commerce Public Dataset by Olist](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) and [Marketing Funnel by Olist](https://www.kaggle.com/datasets/olistbr/marketing-funnel-olist), which is available on Kaggle. These dataset is anonymized and split into multiple CSV files that map out different aspects of the e-commerce operation. 
 
 The core datasets used in this analysis include:
 - `olist_marketing_qualified_leads_dataset.csv`: Data on potential sellers who were contacted.
